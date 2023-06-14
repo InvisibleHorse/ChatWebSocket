@@ -1,14 +1,13 @@
 import React from 'react';
-import io from 'socket.io-client';
 import './App.css';
+import Form from './components/Logging page/Form';
+// eslint-disable-next-line no-unused-vars
+import socket from './socket';
 
 function App() {
-    const socket = () => {
-        io('http://localhost:8888');
-    };
     return (
         <div className="App">
-            <button type="button" onClick={socket}>CLICK</button>
+            <Form />
         </div>
     );
 }
