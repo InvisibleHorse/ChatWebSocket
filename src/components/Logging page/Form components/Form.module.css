@@ -28,6 +28,12 @@
     -webkit-box-shadow: 0px 0px 0px 3px rgba(29,103,205,0.35);
     box-shadow: 0px 0px 0px 3px rgba(29,103,205,0.35);
 }
+.button:disabled{
+    background-color: rgba(29, 103, 205, 0.44);
+    color: white;
+    -webkit-box-shadow: 0px 0px 0px 3px rgba(29,103,205,0.35);
+    box-shadow: 0px 0px 0px 3px rgba(29,103,205,0.35);
+}
 .container {
     display: flex;
     align-items: center;

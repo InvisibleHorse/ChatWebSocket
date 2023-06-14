@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useReducer } from 'react';
 import './App.css';
 import Form from './components/Logging page/Form';
-// eslint-disable-next-line no-unused-vars
-import socket from './socket';
+import reducer from './reducer';
 
 function App() {
+    const [state, dispatch] = useReducer(reducer, {
+        isAuth: false,
+    });
+
+    const onSignIn = () => {
+        dispatch({
+            type: 'IS_AUTH',
+            payload: true,
+        });
+    };
+
     return (
         <div className="App">
-            <Form />
+            {!state.isAuth && <Form onSignIn={onSignIn} />}
         </div>
     );
 }
