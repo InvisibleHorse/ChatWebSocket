@@ -3,7 +3,9 @@ export default (state, action) => {
         case 'IS_AUTH':
             return {
                 ...state,
-                isAuth: action.payload,
+                isAuth: true,
+                roomID: action.payload.roomID,
+                userName: action.payload.userName,
             };
         default:
             return state;
