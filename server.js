@@ -27,6 +27,12 @@ app.post('/rooms', (req, res) => {
 });
 
 io.on('connection', socket => {
+    socket.on('ROOM_JOIN', ({ roomID, userName }) => {
+        socket.join(roomID);
+        rooms.get(roomID).get('users').set(socket.id, userName);
+        // const users = [...rooms.get(roomID).get('users').values()];
+        // socket.to(roomID).broadcast.emit('ROOM_JOINED', users);
+    });
     console.log('user connected', socket.id);
 });
 server.listen(8888, err => {

@@ -15,12 +15,13 @@ export default function Form({ onSignIn }) {
         if (!roomID || !userName) {
             return alert('Please check if all fields are filled in correctly');
         }
-        setLoading(true);
-        await axios.post('http://localhost:8888/rooms', {
+        const obj = {
             roomID,
             userName,
-        });
-        onSignIn();
+        };
+        setLoading(true);
+        await axios.post('http://localhost:8888/rooms', obj);
+        onSignIn(obj);
     };
 
     return (
