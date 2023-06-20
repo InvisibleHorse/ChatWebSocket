@@ -6,7 +6,7 @@ export default function MessageInput() {
     return (
         <form>
             <div className={`${s.messageInput} mb-3`}>
-                <input
+                <textarea
                     type="text" className="form-control" id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                 />

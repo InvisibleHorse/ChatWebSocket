@@ -1,15 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import MessageInput from './Chat components/MessageInput';
 import Bar from './Chat components/Bar';
 import MessagesList from './Chat components/MessagesList';
 import s from './Chat.module.css';
 
-export default function ChatMain() {
+// eslint-disable-next-line no-unused-vars
+export default function ChatMain({ users, messages }) {
     return (
         <div className="container-fluid">
             <div className="row">
                 <div className={`${s.zeroPadding} col-2`}>
-                    <Bar />
+                    <Bar users={users} />
                 </div>
                 <div className={`${s.mainChat} col`}>
                     <div className={`${s.mainChatElement} row`}>
@@ -23,3 +25,7 @@ export default function ChatMain() {
         </div>
     );
 }
+ChatMain.propTypes = {
+    users: PropTypes.instanceOf(Array),
+    messages: PropTypes.instanceOf(Array),
+};

@@ -6,6 +6,7 @@ export default function EachMessage({ text, className }) {
     return (
         <div className={className}>
             <div className="container">
+                <span className={s.span}>Test user</span>
                 <blockquote className={`${s.blockquote}`}>{text}</blockquote>
             </div>
         </div>
