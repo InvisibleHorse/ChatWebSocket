@@ -28,18 +28,34 @@ function App() {
         });
         socket.emit('ROOM_JOIN', obj);
         const { data } = await axios.get(`http://localhost:8888/rooms/${obj.roomID}`);
-        setUsers(data.users);
+        dispatch({
+            type: 'SET_DATA',
+            payload: data,
+        });
+    };
+
+    const addMessage = message => {
+        console.log(message);
+        dispatch({
+            type: 'NEW_MESSAGE',
+            payload: message,
+        });
     };
 
     useEffect(() => {
         socket.on('ROOM:SET_USERS', setUsers);
+        socket.on('ROOM_NEW_MESSAGE', obj => addMessage(obj));
     }, []);
 
     window.socket = socket;
 
     return (
         <div className="App">
-            {!state.isAuth ? <Form onSignIn={onSignIn} /> : <ChatMain {...state} />}
+            {!state.isAuth ? <Form onSignIn={onSignIn} /> : (
+                <ChatMain
+                    {...state} onAddMessage={addMessage}
+                />
+            )}
         </div>
     );
 }
