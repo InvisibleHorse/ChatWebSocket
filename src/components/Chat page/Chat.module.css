@@ -16,10 +16,12 @@
     padding: 8px 16px;
 }
 .minHeight{
-    min-height: 32.5rem;
+    min-height: 31rem;
 }
 .messageList{
     padding: 5% 5%;
+    height: 31rem;
+    overflow: auto;
 }
 .yourMessage{
     background-color: #1D67CD;
@@ -60,4 +62,8 @@
     padding: 0 0.5rem;
     float: right;
     clear: right;
+}
+.roomNumber {
+    font-weight: bold;
+    color: #1D67CD95;
 }

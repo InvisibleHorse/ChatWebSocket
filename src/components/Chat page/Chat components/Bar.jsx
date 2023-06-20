@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 import ProfileMenu from './Bar details/ProfileMenu';
 import s from '../Chat.module.css';
 
-export default function Bar({ users }) {
+export default function Bar({ users, roomID }) {
     return (
         <div className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary">
+            <span className={s.roomNumber}>Room #{roomID}</span>
             <a
                 href="/"
                 className="d-flex align-items-center
@@ -33,4 +34,5 @@ export default function Bar({ users }) {
 }
 Bar.propTypes = {
     users: PropTypes.instanceOf(Array),
+    roomID: PropTypes.number,
 };
