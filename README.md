@@ -35,7 +35,7 @@ align="right"
 <hr>
 <h2>More about this project</h2>
 <hr>
-<p> This is a simple chat, that was created using <strong>Socket.io</strong>, <strong>express</strong>, <strong>react</strong> and <strong>axios</strong> libraries. It imitates the real chat server behavior and lets sending messages between several users within a specific chat.<br style='padding-bottom: 10px'>
+<p> This is a simple chat, that was created using <strong>Socket.io</strong>, <strong>express</strong>, <strong>react</strong> and <strong>axios</strong> libraries. It imitates the real chat server behavior and lets sending messages between several users within a specific chat.<br style='padding-bottom: 100px'>
 <strong>Below provided several screenshots for demonstration of this application work: </strong>
 </p>
 <img alt='First screenshot' src='/screenshots/1.jpg' >
