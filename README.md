@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hello_%28yellow%29.svg/2560px-Hello_%28yellow%29.svg.png" 
-    style="height:24px; position: static;">
-     I'm Anastasiia Martyn</h1>
+    style="height:26px; position: static;">
+     , I'm Anastasiia Martyn</h1>
 <h3 align="center">A passionate frontend developer from Ukraine</h3>
 
 - 🔭 I’m currently working on [a simple WebSocket chat](https://github.com/InvisibleHorse/ChatWebSocket)
