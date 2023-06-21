@@ -1,8 +1,23 @@
-<h1 align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hello_%28yellow%29.svg/2560px-Hello_%28yellow%29.svg.png" 
-    style="height:26px; position: static;">
-     , I'm Anastasiia Martyn</h1>
-<h3 align="center">A passionate frontend developer from Ukraine</h3>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    </style>
+
+<h1 align="center" > <span style="font-family: 'Sedgwick Ave', cursive; color:rgb(255, 217, 0)">Hello, </span>I'm Anastasiia Martyn</h1>
+<h3 align="center" >A passionate frontend developer from Ukraine</h3>
+<img 
+src="https://64.media.tumblr.com/58d8b6a36a5c38ea3adc46b28d9dca91/6828842ed9a352c9-1e/s400x600/beb4e6959e5140f7a642c04cfc31011ca98e514d.gif" 
+alt="Coding"
+width="400"
+align="right"
+>
 
 - 🔭 I’m currently working on [a simple WebSocket chat](https://github.com/InvisibleHorse/ChatWebSocket)
 
