@@ -39,5 +39,7 @@ align="right"
 Below provided several screenshots for demonstration of this application work: 
 </p>
 <img alt='First screenshot' src='/screenshots/1.jpg' >
+<hr>
 <img alt='Second screenshot' src='/screenshots/2.jpg' >
+<hr>
 <img alt='Third screenshot' src='/screenshots/3.jpg' >
