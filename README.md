@@ -8,7 +8,7 @@
     body {
         font-family: 'Raleway', sans-serif;
     }
-    </style>
+</style>
 
 <h1 align="center" > <span style="font-family: 'Sedgwick Ave', cursive; color:rgb(255, 217, 0)">Hello, </span>I'm Anastasiia Martyn</h1>
 <h3 align="center" >A passionate frontend developer from Ukraine</h3>
