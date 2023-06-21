@@ -5,7 +5,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 
-<div style="border: 2px yellow">
+<div style="border-style:solid; border-width: 5px; border-color: rgb(255, 204, 0);">
     <h1 align="center" >Hello, I'm Anastasiia Martyn</h1>
 </div>
 <h3 align="center" >A passionate frontend developer from Ukraine</h3>
