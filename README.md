@@ -12,6 +12,7 @@
 - 📫 How to reach me **martynanvik@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
+<img src="https://png.pngitem.com/pimgs/s/131-1310002_heart-emoji-pixelart-pixel-pixel-heart-transparent-hd.png" style="height:14px">
 <p align="left">
 <a href="https://instagram.com/@thedeaddeer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@thedeaddeer" height="30" width="40" /></a>
 </p>
