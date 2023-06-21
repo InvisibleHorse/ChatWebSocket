@@ -1,5 +1,5 @@
 <h1 align="center">Hi 
-    <img src="https://png.pngitem.com/pimgs/s/131-1310002_heart-emoji-pixelart-pixel-pixel-heart-transparent-hd.png" style="height:14px; position: static;">
+    <img src="https://png.pngitem.com/pimgs/s/131-1310002_heart-emoji-pixelart-pixel-pixel-heart-transparent-hd.png" style="height:20px; position: static;">
     , I'm Anastasiia Martyn</h1>
 <h3 align="center">A passionate frontend developer from Ukraine</h3>
 
