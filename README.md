@@ -1,7 +1,7 @@
-<h1 align="center">Hi 
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQseidXZxSmAo3NyEtqxLVw00t9vcWISeFDptFeR3X01z65n4vQneBddpssk5iJtV4mHcc&usqp=CAU" 
+<h1 align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hello_%28yellow%29.svg/2560px-Hello_%28yellow%29.svg.png" 
     style="height:24px; position: static;">
-    , I'm Anastasiia Martyn</h1>
+     I'm Anastasiia Martyn</h1>
 <h3 align="center">A passionate frontend developer from Ukraine</h3>
 
 - 🔭 I’m currently working on [a simple WebSocket chat](https://github.com/InvisibleHorse/ChatWebSocket)
