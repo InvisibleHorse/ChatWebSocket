@@ -4,7 +4,7 @@ import s from '../../Chat.module.css';
 export default function Avatar() {
     return (
         <a
-            href="/"
+            href="/ChatWebSocket/"
             className={` ${s.forSidebar} 
             d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle`}
             data-bs-toggle="dropdown" aria-expanded="false"

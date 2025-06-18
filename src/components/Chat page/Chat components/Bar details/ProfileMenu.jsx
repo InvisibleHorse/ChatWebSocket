@@ -12,7 +12,7 @@ export default function ProfileMenu() {
                 <li>
                     <hr className="dropdown-divider" />
                 </li>
-                <li><a className="dropdown-item" href="/psych-sessions">Sign out</a></li>
+                <li><a className="dropdown-item" href="/ChatWebSocket">Sign out</a></li>
             </ul>
         </div>
     );

@@ -8,7 +8,7 @@ export default function Bar({ users, roomID }) {
         <div className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary fullHeight">
             <span className={s.roomNumber}>Room #{roomID}</span>
             <a
-                href="/"
+                href="/ChatWebSocket/"
                 className="d-flex align-items-center justify-content-center
                     mb-3 mb-md-0 link-body-emphasis text-decoration-none"
             >
