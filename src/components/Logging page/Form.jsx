@@ -20,7 +20,7 @@ export default function Form({ onSignIn }) {
             userName,
         };
         setLoading(true);
-        await axios.post('http://localhost:8888/rooms', obj);
+        await axios.post('https://chatwebsocket-4zey.onrender.com/rooms', obj);
         onSignIn(obj);
     };
 
