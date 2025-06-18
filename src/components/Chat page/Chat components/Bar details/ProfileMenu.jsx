@@ -6,13 +6,13 @@ export default function ProfileMenu() {
         <div className="dropdown">
             <Avatar />
             <ul className="dropdown-menu text-small shadow">
-                <li><a className="dropdown-item" href="/">Create new chat...</a></li>
-                <li><a className="dropdown-item" href="/">Settings</a></li>
-                <li><a className="dropdown-item" href="/">Profile</a></li>
+                <li><a className="dropdown-item" href="/ChatWebSocket/">Create new chat...</a></li>
+                <li><a className="dropdown-item" href="/ChatWebSocket/">Settings</a></li>
+                <li><a className="dropdown-item" href="/ChatWebSocket/">Profile</a></li>
                 <li>
                     <hr className="dropdown-divider" />
                 </li>
-                <li><a className="dropdown-item" href="/ChatWebSocket">Sign out</a></li>
+                <li><a className="dropdown-item" href="/ChatWebSocket/">Sign out</a></li>
             </ul>
         </div>
     );
