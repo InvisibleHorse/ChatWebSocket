@@ -1,4 +1,6 @@
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:8888');
+const API_URL = 'https://chatwebsocket-4zey.onrender.com/';
+const socket = io(API_URL);
+
 export default socket;
