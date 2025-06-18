@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ChatWebSocket/static/css/main.e9903e34.css",
+    "main.js": "/ChatWebSocket/static/js/main.6de28dcf.js",
+    "index.html": "/ChatWebSocket/index.html",
+    "main.e9903e34.css.map": "/ChatWebSocket/static/css/main.e9903e34.css.map",
+    "main.6de28dcf.js.map": "/ChatWebSocket/static/js/main.6de28dcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9903e34.css",
+    "static/js/main.6de28dcf.js"
+  ]
+}
