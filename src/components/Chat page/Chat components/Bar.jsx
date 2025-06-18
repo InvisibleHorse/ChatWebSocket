@@ -5,14 +5,13 @@ import s from '../Chat.module.css';
 
 export default function Bar({ users, roomID }) {
     return (
-        <div className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary">
+        <div className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary fullHeight">
             <span className={s.roomNumber}>Room #{roomID}</span>
             <a
                 href="/"
-                className="d-flex align-items-center
-                    mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+                className="d-flex align-items-center justify-content-center
+                    mb-3 mb-md-0 link-body-emphasis text-decoration-none"
             >
-                <svg className="bi pe-none me-2" width="40" height="32" />
                 <span className={`${s.forSidebar} fs-4`}>Online: ({users.length})</span>
             </a>
             <hr />
@@ -20,10 +19,10 @@ export default function Bar({ users, roomID }) {
                 {users.map((name, index) => (
                     // eslint-disable-next-line react/no-array-index-key
                     <li key={name + index} className="nav-item">
-                        <a href="https://getbootstrap.com/docs/5.3/examples/" className="nav-link active" aria-current="page">
+                        <paragpraph className="nav-link active" aria-current="page">
                             <svg className="bi pe-none me-2" width="16" height="16" />
                             {name}
-                        </a>
+                        </paragpraph>
                     </li>
                 ))}
             </ul>

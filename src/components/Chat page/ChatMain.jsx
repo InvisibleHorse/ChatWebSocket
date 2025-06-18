@@ -9,6 +9,9 @@ import s from './Chat.module.css';
 // eslint-disable-next-line no-unused-vars
 export default function ChatMain({ onAddMessage, users, messages, userName, roomID }) {
     const [message, setMessage] = useState('');
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+
+    const toggleSidebar = () => setSidebarOpen(prev => !prev);
 
     const onSendMessage = () => {
         socket.emit('ROOM_NEW_MESSAGE', {
@@ -24,14 +27,15 @@ export default function ChatMain({ onAddMessage, users, messages, userName, room
     };
 
     return (
-        <div className="container-fluid">
-            <div className="row">
-                <div className={`${s.zeroPadding} col-2`}>
+        <div className="container-fluid fullHeight">
+            <div className="row fullHeight">
+                <div className={`${s.sidebar} ${sidebarOpen ? s.sidebarOpen : ''}`}>
                     <Bar users={users} roomID={roomID} />
                 </div>
                 <div className={`${s.mainChat} col`}>
+                    <button type="button" className={s.toggleBtn} onClick={toggleSidebar}>☰</button>
                     <div className={`${s.mainChatElement} row`}>
-                        <MessagesList messages={messages} />
+                        <MessagesList messages={messages} currentUser={userName} />
                     </div>
                     <div className={`${s.mainChatElement} row`}>
                         <MessageInput

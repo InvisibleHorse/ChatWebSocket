@@ -12,34 +12,45 @@
 .textAlign {
     text-align: left;
 }
+
+.sidebar {
+    height: 100%;
+    width: 16.66%; 
+}
+
 .forSidebar {
     padding: 8px 16px;
 }
 .minHeight{
     min-height: 31rem;
 }
-.messageList{
+.messageList {
+    display: flex;
+    flex-direction: column;
     padding: 5% 5%;
     height: 31rem;
-    overflow: auto;
+    overflow-y: auto;
 }
-.yourMessage{
+.yourMessage {
     background-color: #1D67CD;
-    word-wrap:break-word;
-    max-width:100%;
-    float: right;
-    clear: right;
-    margin: 1rem 0;
-    border-radius: .35em;
+    word-wrap: break-word;
+    max-width: 75%;
+    align-self: flex-end;
+    margin: 0.5rem 0;
+    border-radius: 0.35em;
+    padding: 0.5rem;
+    color: white;
 }
-.notYourMessage{
+
+.notYourMessage {
     background-color: #1D67CD75;
-    word-wrap:break-word;
-    max-width:100%;
-    float: left;
-    clear: left;
-    margin: 1rem 0;
-    border-radius: .35em;
+    word-wrap: break-word;
+    max-width: 75%;
+    align-self: flex-start;
+    margin: 0.5rem 0;
+    border-radius: 0.35em;
+    padding: 0.5rem;
+    color: white;
 }
 .blockquote {
     padding:0.3rem;
@@ -66,4 +77,42 @@
 .roomNumber {
     font-weight: bold;
     color: #1D67CD95;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -80%;
+        width: 70%;
+        max-width: 300px;
+        height: 100%;
+        background-color: #f5f5f5;
+        z-index: 1000;
+        transition: left 0.3s ease-in-out;
+        box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+    }
+
+    .sidebarOpen {
+        left: 0;
+    }
+
+    .toggleBtn {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        z-index: 1100;
+        background: #1D67CD;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.3rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .toggleBtn {
+        display: none;
+    }
 }

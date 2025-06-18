@@ -50,7 +50,7 @@ function App() {
     window.socket = socket;
 
     return (
-        <div className="App">
+        <div className="App fullHeight">
             {!state.isAuth ? <Form onSignIn={onSignIn} /> : (
                 <ChatMain
                     {...state} onAddMessage={addMessage}
