@@ -27,7 +27,7 @@ function App() {
             payload: obj,
         });
         socket.emit('ROOM_JOIN', obj);
-        const { data } = await axios.get(`http://localhost:8888/rooms/${obj.roomID}`);
+        const { data } = await axios.get(`https://chatwebsocket-4zey.onrender.com/rooms/${obj.roomID}`);
         dispatch({
             type: 'SET_DATA',
             payload: data,
