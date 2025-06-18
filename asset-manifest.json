@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ChatWebSocket/static/css/main.e9903e34.css",
-    "main.js": "/ChatWebSocket/static/js/main.43f5ea42.js",
+    "main.js": "/ChatWebSocket/static/js/main.fc7b4499.js",
     "index.html": "/ChatWebSocket/index.html",
     "main.e9903e34.css.map": "/ChatWebSocket/static/css/main.e9903e34.css.map",
-    "main.43f5ea42.js.map": "/ChatWebSocket/static/js/main.43f5ea42.js.map"
+    "main.fc7b4499.js.map": "/ChatWebSocket/static/js/main.fc7b4499.js.map"
   },
   "entrypoints": [
     "static/css/main.e9903e34.css",
-    "static/js/main.43f5ea42.js"
+    "static/js/main.fc7b4499.js"
   ]
 }
